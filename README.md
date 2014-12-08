@@ -1,17 +1,18 @@
-[![build status](https://secure.travis-ci.org/vojtajina/grunt-coffeelint.png)](http://travis-ci.org/vojtajina/grunt-coffeelint)
-# grunt-coffeelint
+# grunt-coffeelint-cjsx
 
-**Lint your CoffeeScript with [CoffeeLint].**
+**Lint your CoffeeScript with CoffeeLint & React CJSX**
+
+This uses [emorikawa/coffeelint-cjsx](https://github.com/emorikawa/coffeelint-cjsx), which is a React-specific fork of [clutchski/coffeelint](https://github.com/clutchski/coffeelint). This is for React 0.12 syntax.
 
 ## Installation
 
 Install npm package, next to your project's `Gruntfile.js` file:
 
-    npm install grunt-coffeelint
+    npm install grunt-coffeelint-cjsx
 
 Add this line to your project's `Gruntfile.js`:
 
-    grunt.loadNpmTasks('grunt-coffeelint');
+    grunt.loadNpmTasks('grunt-coffeelint-cjsx');
 
 ## Options
 

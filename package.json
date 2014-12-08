@@ -1,13 +1,15 @@
 {
-  "name": "grunt-coffeelint",
-  "description": "Lint your Coffee",
-  "version": "0.0.13",
-  "homepage": "https://github.com/vojtajina/grunt-coffeelint",
+  "name": "grunt-coffeelint-cjsx",
+  "description": "Lint your Coffee & React CJSX",
+  "version": "0.1.0",
+  "homepage": "https://github.com/emorikawa/grunt-coffeelint-cjsx",
   "author": {
-    "name": "Vojta Jína",
-    "email": "vojta.jina@gmail.com"
+    "name": "Evan Morikawa",
+    "email": "evan@evanmorikawa.com"
   },
   "contributors": [
+    "Matthew Perpick <clutchski@gmail.com>",
+    "Vojta Jína <vojta.jina@gmail.com>",
     "Christoph Neuroth <christoph.neuroth@gmail.com>",
     "Ed Siok <sioked@gmail.com>",
     "travis4all <travis4all@diamon.dz>",
@@ -16,15 +18,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/vojtajina/grunt-coffeelint.git"
+    "url": "git://github.com/emorikawa/grunt-coffeelint-cjsx.git"
   },
   "bugs": {
-    "url": "https://github.com/vojtajina/grunt-coffeelint/issues"
+    "url": "https://github.com/emorikawa/grunt-coffeelint-cjsx/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/vojtajina/grunt-coffeelint/blob/master/LICENSE-"
+      "url": "http://github.com/emorikawa/grunt-coffeelint-cjsx/blob/master/LICENSE"
     }
   ],
   "main": "Gruntfile.coffee",
@@ -36,7 +38,7 @@
   },
   "peerDependencies": {
     "grunt": "~0.4",
-    "coffeelint": "^1"
+    "coffeelint-cjsx": "^2.0"
   },
   "dependencies": {
     "coffeelint-stylish": "~0.1.0"
@@ -46,7 +48,7 @@
     "grunt-bump": "~0.0.7",
     "grunt-npm": "~0.0.2",
     "grunt-auto-release": "0.0.6",
-    "coffeelint": "^1"
+    "coffeelint-cjsx": "^2.0"
   },
   "keywords": [
     "gruntplugin"

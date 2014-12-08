@@ -1,8 +1,8 @@
 module.exports = function(grunt) {
-  var coffeelint = require('coffeelint');
+  var coffeelint = require('coffeelint-cjsx');
   var reporter = require('coffeelint-stylish').reporter;
 
-  grunt.registerMultiTask('coffeelint', 'Validate files with CoffeeLint', function() {
+  grunt.registerMultiTask('coffeelint', 'Validate files with CoffeeLint & CJSX', function() {
 
     var errorCount = 0;
     var warnCount = 0;
